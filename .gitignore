@@ -1,0 +1,19 @@
+*.txt
+# .gitignore文件中的用法
+#     1.忽略所有的.a文件
+#      *.a1
+
+#     2.可以跟踪所有lib.a，即使你前面忽略了.a文件
+#      !lib.a1
+
+#     3.只忽略当前目录下的TODO文件，而不忽略subdir/TODO
+#      /TODO
+
+#     4.忽略任何目录下名为build的文件
+#      build/
+
+#     4.忽略doc/notes.txt,但不忽略doc/server/arch.txt
+#      doc/*.txt
+
+#     5.忽略doc/目录及其所有子目录下的.pdf文件
+#      doc/**/*.pdf
